@@ -1,0 +1,88 @@
+*
+body{
+    position: relative;
+    height: 90vh;
+}
+.sliding-tabs{
+    border: 20px solid white;
+    background-color:white;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+	box-shadow:2px 3px 9px 1px #dedede
+}
+
+.container{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 7%;
+
+}
+
+.slider-bg{
+    /*border: 1px solid red;*/
+    background-color: #06547E;
+    border-radius: 30px;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+    left:0;
+}
+
+.menu-container{
+   
+    border-radius: 30px;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;   
+    justify-content: space-between;
+}
+
+
+
+.menu{
+
+    border-radius: 30px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.circle{
+    background-color: orange;
+	color:white;
+	color:white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+a{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
